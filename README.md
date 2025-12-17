@@ -9,3 +9,11 @@ func main() {
     }
     fmt.Println("Deployment is healthy!")
 }
+
+
+Run
+# Start Selenium Grid + Tests
+docker-compose up --build
+
+# View reports
+open target/cucumber-reports.html  # if you added reporting plugin
